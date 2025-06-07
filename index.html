@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HydroGuard - Sistema Contra Enchentes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>HydroGuard</h1>
+    <p>Sistema Inteligente de Alerta Comunitário para Enchentes</p>
+    <nav>
+      <a href="#problema">Problema</a>
+      <a href="#solucao">Solução</a>
+      <a href="#video">Pitch</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="problema">
+      <h2>O Problema</h2>
+      <p>Enchentes afetam milhões de brasileiros anualmente. Falta de alertas e prevenção resulta em vidas perdidas.</p>
+      <img src="assets/enchente.jpg" alt="Imagem de enchente">
+    </section>
+
+    <section id="solucao">
+      <h2>Solução Proposta</h2>
+      <p>HydroGuard é um sistema inteligente que integra sensores IoT, IA e um app leve, com alertas visuais e sonoros, funcionando offline.</p>
+      <ul>
+        <li>✔ Aplicativo leve e acessível</li>
+        <li>✔ Comunicação com Defesa Civil</li>
+        <li>✔ Funcionalidade offline</li>
+      </ul>
+      <button onclick="ativarAlerta()">🚨 Simular Alerta SOS</button>
+      <div id="alerta" class="oculto">⚠️ ALERTA DE ENCHENTE ATIVO!</div>
+    </section>
+
+    <section id="video">
+      <h2>Vídeo Pitch</h2>
+      <div class="video-wrapper">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/R0BF8In1Dqc" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contato">
+    <p>Enzo Galhardo - RM: 561001</p>
+    <p>© 2025 HydroGuard</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
