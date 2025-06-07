@@ -4,6 +4,8 @@ Aluno: Enzo Galhardo
 RM: 561001
 
 Link do pitch: https://youtu.be/R0BF8In1Dqc
+Link do repositório: https://github.com/EnzoGalhardo/gs-frontend
+Link do pages: https://github.com/EnzoGalhardo/gs-frontend
 
 Como testar:
 1. Extraia o ZIP
